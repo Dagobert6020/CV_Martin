@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+<body>
+    <h3>Contact details</h3>
+    <p>Martin Höpperger</p>
+    <p>Schwamendingenstrasse 77</p>
+    <p>CH-8050 Zurich</p>
+    <br>
+    <p> <a href="mailto:Martin.Hoepperger@gmx.at ?subject=This is a subject text &body=This is the message taken over from your web-browser into your e-mail program">Martin.Hoepperger@gmx.at</a></p>
+    <p><a href="tel:+41.79.916.46.27">+41 79 916 46 27</a></p>
+    <hr>
+    <h3>Message me</h3>
+    <form action="mailto:Martin.Hoepperger@aivo.ch ?subject=Default e-mail subject" method="post" enctype="text/plain">
+        <input type="hidden" name="This is a message coming from a hidden input field" value="Hi">
+        <label>Your name</label>
+        <input type="text" name="Your name"><br>
+        <br>
+        <label>Your e-mail</label>
+        <input type="email" name="Your e-mail"><br>
+        <br>
+        <label>Your message</label><br>
+        <textarea name="Your message" cols="30" rows="10"></textarea><br>
+        <br>
+        <input type="submit">
+
+    </form>
+</body>
+</html>
